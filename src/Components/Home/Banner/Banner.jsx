@@ -2,19 +2,21 @@ import userImg from "./../../../assets/images/user.png";
 
 const Banner = () => {
   return (
-    <div className="hero bg-base-200 min-h-screen">
-      <div className="hero-content flex-col lg:flex-row-reverse">
-        <img src={userImg} className="max-w-sm rounded-lg shadow-2xl" />
+    <div className="hero bg-base-200">
+      <div className="hero-content flex-col justify-center items-center md:px-20 lg:flex-row-reverse">
         <div>
-          <h1 className="text-5xl font-bold">
-            One Step Closer To Your Dream Job
+          <img src={userImg} className="lg:max-w-sm rounded-lg" />
+        </div>
+        <div>
+          <h1 className="text-2xl text-center md:text-start md:text-5xl font-bold">
+            One Step <br /> Closer To Your <br /> Dream Job
           </h1>
           <p className="py-6">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <button class="bg-violet-500 py-2 px-4 rounded-lg text-white">Get Started</button>
         </div>
       </div>
     </div>
